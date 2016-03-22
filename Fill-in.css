@@ -1,0 +1,41 @@
+.box {
+    margin-top:50px;
+    width:900px;
+    height:300px;
+    background-color: whitesmoke;
+    position:relative;
+}
+.specification {
+    background-color:lightgray;
+    height:30px;
+    line-height:30px;
+    font-weight:bold;
+    padding-left:10px;
+    outline:none;
+    margin:0;
+}
+.button-box, .preview-btns {
+    height: 40px;
+    line-height: 30px;
+    background-color: lightgray;
+    position:absolute;
+    bottom:0;
+    width:900px;
+    padding-left:10px;
+}
+.edit-box {
+    min-height:230px;
+    padding-left:10px;
+    padding-top:10px;
+    font: 14px "Tahoma", sans-serif;
+    font-weight:bold;
+}
+.preview-btns {
+    display:none;
+}
+.wrong {
+    background-color: red;
+}
+.right {
+    background-color: lime;
+}
